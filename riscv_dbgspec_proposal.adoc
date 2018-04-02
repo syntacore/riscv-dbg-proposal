@@ -1,0 +1,58 @@
+= RISC-V Debug Mode concept modification proposal
+Rev 0.1, 2018-03-29
+Syntacore <debug@syntacore.com>
+
+:revnumber: 0.1
+:revdate: 2018-03-29
+:lang: en
+:numbered:
+:sectnum:
+:sectnumlevels: 4
+:toc:
+:toclevels: 4
+:imagesdir: ./img
+:includedir: ./src
+
+//include::{includedir}/_riscv_dbgspec_proposal_config.adoc[]
+
+:sectnums!:
+<<<
+== Revision history
+include::{includedir}/revhistory.adoc[]
+
+<<<
+== Introduction
+The document contains Syntacore's proposal on reorganization of the Debug Mode, a
+key concept in RISC-V Debug Specification. This includes modification of
+the Debug Mode concept, extending the Mode's set of operational parameters and states,
+and sizable changes in the Debug CSRs.
+
+
+This proposal references RISC-V Debug Specification draft 0.13, available here:
+
+https://github.com/riscv/riscv-debug-spec
+
+
+The source text for this proposal is available here:
+
+https://github.com/syntacore/riscv-dbg-proposal
+
+
+:sectnums:
+<<<
+include::{includedir}/riscv_dbgspec_proposal_src.adoc[]
+
+
+
+
+
+
+ifdef::backend-docbook[]
+[index]
+Example Index
+-------------
+////////////////////////////////////////////////////////////////
+The index is normally left completely empty, it's contents being
+generated automatically by the DocBook toolchain.
+////////////////////////////////////////////////////////////////
+endif::backend-docbook[]

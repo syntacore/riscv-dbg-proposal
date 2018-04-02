@@ -1,0 +1,5 @@
+[width="100%",cols="1,2,7", align="center", options="header"]
+|===
+   | Version	   | Date 	    | Description
+   | {revnumber}   | {revdate}  | Initial revision
+|===
